@@ -457,7 +457,7 @@ h3 {
   background-size: 100% 100%;
   border-radius: 50px;
   background-size: 101% 100%;
-  background: #FFC000;
+  /* background: #FFC000; */
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
