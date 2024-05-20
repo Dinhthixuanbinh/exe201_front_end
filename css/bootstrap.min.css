@@ -2715,7 +2715,7 @@ fieldset:disabled a.btn {
 
 .btn-success {
     color: #fff;
-    background-color: #28a745;
+    background-color: #e0ac10;
     border-color: #28a745
 }
 
@@ -4683,7 +4683,7 @@ tbody.collapse.show {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    padding: 1.25rem
+    padding: 0 rem
 }
 
 .card-title {
@@ -9269,6 +9269,6 @@ a.text-dark:hover {
         border: 1px solid #ddd!important
     }
 }
-
+/* ########################### */
 
 /* # sourceMappingURL=bootstrap.min.css.map */

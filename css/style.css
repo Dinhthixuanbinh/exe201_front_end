@@ -27,6 +27,45 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+.bradcam_area {
+  position: relative;
+  padding: 60px 0;
+  background-size: cover;
+  background-position: center center;
+  background-color: transparent; /* Set background color to transparent */
+}
+
+.bradcam_text {
+  position: relative;
+  z-index: 2;
+}
+
+.bradcam_area::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+  z-index: 1;
+}
+
+.bradcam_area .card {
+  position: relative;
+  z-index: 2; /* Ensure it appears above the background overlay */
+  margin-top: 20px;
+}
+
+.bradcam_area .form-control {
+  border-radius: 0;
+}
+
+.bradcam_area .btn-success {
+  border-radius: 0px;
+  
+}
+
 
 /* line 12, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/theme-default.scss */
 .img {
